@@ -1,0 +1,328 @@
+-- DE
+
+['green_contacts'] = {
+    label = 'Grüne Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['emerald_contacts'] = {
+    label = 'Smaragdgrüne Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['light_blue_contacts'] = {
+    label = 'Hellblaue Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['ocean_blue_contacts'] = {
+    label = 'Ozeanblaue Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['light_brown_contacts'] = {
+    label = 'Hellbraune Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['dark_brown_contacts'] = {
+    label = 'Dunkelbraune Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['hazel_contacts'] = {
+    label = 'Haselnussbraune Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['dark_gray_contacts'] = {
+    label = 'Dunkelgraue Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['light_gray_contacts'] = {
+    label = 'Hellgraue Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['pink_contacts'] = {
+    label = 'Rosa Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['yellow_contacts'] = {
+    label = 'Gelbe Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['purple_contacts'] = {
+    label = 'Lila Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['blackout_contacts'] = {
+    label = 'Schwarze Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['shades_of_gray_contacts'] = {
+    label = 'Graue Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['tequila_sunrise_contacts'] = {
+    label = 'Tequila Sunrise Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['atomic_contacts'] = {
+    label = 'Atomare Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['warp_contacts'] = {
+    label = 'Warp Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['ecola_contacts'] = {
+    label = 'ECola Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['space_ranger_contacts'] = {
+    label = 'Space Ranger Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['ying_yang_contacts'] = {
+    label = 'Ying Yang Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['bullseye_contacts'] = {
+    label = 'Bullseye Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['lizard_contacts'] = {
+    label = 'Eidechsen Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['dragon_contacts'] = {
+    label = 'Drachen Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['extra_terrestrial_contacts'] = {
+    label = 'Außerirdische Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['goat_contacts'] = {
+    label = 'Ziegen Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['smiley_contacts'] = {
+    label = 'Smiley Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['possessed_contacts'] = {
+    label = 'Besessene Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['demon_contacts'] = {
+    label = 'Dämonische Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['infected_contacts'] = {
+    label = 'Infizierte Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['alien_contacts'] = {
+    label = 'Alien Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['undead_contacts'] = {
+    label = 'Untote Kontaktlinsen',
+    weight = 1,
+    stack = false,
+},
+['zombie_contacts'] = {
+    label = 'Zombie Kontaktlinsen',
+    weight = 1,
+    stack = false,
+}
+
+
+-- EN
+
+['green_contacts'] = {
+    label = 'Green Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['emerald_contacts'] = {
+    label = 'Emerald Green Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['light_blue_contacts'] = {
+    label = 'Light Blue Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['ocean_blue_contacts'] = {
+    label = 'Ocean Blue Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['light_brown_contacts'] = {
+    label = 'Light Brown Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['dark_brown_contacts'] = {
+    label = 'Dark Brown Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['hazel_contacts'] = {
+    label = 'Hazel Brown Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['dark_gray_contacts'] = {
+    label = 'Dark Gray Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['light_gray_contacts'] = {
+    label = 'Light Gray Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['pink_contacts'] = {
+    label = 'Pink Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['yellow_contacts'] = {
+    label = 'Yellow Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['purple_contacts'] = {
+    label = 'Purple Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['blackout_contacts'] = {
+    label = 'Black Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['shades_of_gray_contacts'] = {
+    label = 'Gray Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['tequila_sunrise_contacts'] = {
+    label = 'Tequila Sunrise Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['atomic_contacts'] = {
+    label = 'Atomic Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['warp_contacts'] = {
+    label = 'Warp Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['ecola_contacts'] = {
+    label = 'ECola Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['space_ranger_contacts'] = {
+    label = 'Space Ranger Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['ying_yang_contacts'] = {
+    label = 'Ying Yang Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['bullseye_contacts'] = {
+    label = 'Bullseye Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['lizard_contacts'] = {
+    label = 'Lizard Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['dragon_contacts'] = {
+    label = 'Dragon Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['extra_terrestrial_contacts'] = {
+    label = 'Extra-Terrestrial Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['goat_contacts'] = {
+    label = 'Goat Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['smiley_contacts'] = {
+    label = 'Smiley Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['possessed_contacts'] = {
+    label = 'Possessed Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['demon_contacts'] = {
+    label = 'Demon Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['infected_contacts'] = {
+    label = 'Infected Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['alien_contacts'] = {
+    label = 'Alien Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['undead_contacts'] = {
+    label = 'Undead Contact Lenses',
+    weight = 1,
+    stack = false,
+},
+['zombie_contacts'] = {
+    label = 'Zombie Contact Lenses',
+    weight = 1,
+    stack = false,
+}
+
+
