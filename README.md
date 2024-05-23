@@ -1,5 +1,6 @@
 # gs_contactlens
 A FiveM ESX ressource to use eyecolors as a contact lens item
+--
 You need help? Join my Discord! ---> https://discord.gg/8E3NGMAn2H <---
 
 --------- German locales
