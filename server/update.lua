@@ -1,9 +1,7 @@
 -- update.lua
 
-local currentVersion = '1.0.0' -- Setze hier die aktuelle Version deines Skripts
+local currentVersion = '1.0.0' 
 local resourceName = GetCurrentResourceName()
-
--- URL zu deiner GitHub-Release-Seite (setze dein eigenes Repository hier ein)
 local repoURL = 'https://api.github.com/repos/deinGitHubBenutzername/deinRepository/releases/latest'
 
 PerformHttpRequest(repoURL, function(statusCode, response, headers)
