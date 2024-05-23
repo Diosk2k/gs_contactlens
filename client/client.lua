@@ -2,7 +2,6 @@ ESX = exports['es_extended']:getSharedObject()
 local originalEyeColors = {}
 local currentlyWearingContacts = {}
 
--- Funktion zum Abspielen einer Animation
 local function playAnimation(callback)
     local playerPed = PlayerPedId()
     local dict = Config.dict
