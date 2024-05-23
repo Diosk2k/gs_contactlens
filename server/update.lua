@@ -2,7 +2,7 @@
 
 local currentVersion = '1.0.0' 
 local resourceName = GetCurrentResourceName()
-local repoURL = 'https://api.github.com/repos/deinGitHubBenutzername/deinRepository/releases/latest'
+local repoURL = 'https://api.github.com/repos/GokuWrks/gs_contactlens/releases/latest'
 
 PerformHttpRequest(repoURL, function(statusCode, response, headers)
     if statusCode == 200 then
