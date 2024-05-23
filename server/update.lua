@@ -9,12 +9,10 @@ PerformHttpRequest(repoURL, function(statusCode, response, headers)
         local latestRelease = json.decode(response)
         if latestRelease and latestRelease.tag_name and latestRelease.html_url then
             if latestRelease.tag_name ~= currentVersion then
-                print('[^3UPDATE^0] Eine neue Version von ^3' .. resourceName .. '^0 ist verfügbar!')
-                print('[^3Aktuelle Version^0] ' .. currentVersion ..'^0')
-                print('[^3Neue Version^0] ' .. latestRelease.tag_name ..'^0')
-                print('[^5Download-Link^0] ^5' .. latestRelease.html_url ..'^0')
+                print('[^3UPDATE^0] Eine neue Version von ^3' .. resourceName .. '^0 ist verfügbar! [^3Aktuelle version^0] ^3' .. currentVersion ..'^0')
+                print('[^5DOWNLOAD^0] ^5' .. latestRelease.html_url ..'^0')
             else
-                print('[^2UPDATE^0] ^2' .. resourceName .. '^0 ist auf dem neuesten Stand. [^2VERSION^0] ^2' .. currentVersion .. '^0')
+                print('[^4INFO^0] ^4' .. resourceName .. '^0 ist auf dem neuesten Stand. [^2VERSION^0] ^2' .. currentVersion .. '^0')
                 print('[^6DISCORD^0] Join dem ^6GS Designs^0 Discord! (^6https://discord.gg/8E3NGMAn2H^0)')
             end
         else
@@ -29,4 +27,5 @@ PerformHttpRequest(repoURL, function(statusCode, response, headers)
         end
     end
 end, 'GET')
+
 
