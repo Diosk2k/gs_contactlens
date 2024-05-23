@@ -36,10 +36,6 @@ local contactLenses = {
     {name = 'zombie_contacts', label = 'Zombie Contact Lenses', color = 'zombie'}
 }
 
-
-
-
-
 for _, contact in ipairs(contactLenses) do
     ESX.RegisterUsableItem(contact.name, function(source)
         local xPlayer = ESX.GetPlayerFromId(source)
