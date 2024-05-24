@@ -36,6 +36,21 @@ Config.eyeColors = {
 }
 
 -- Animation
-
 Config.dict = "mp_masks@on_foot"
 Config.anim = "put_on_mask"
+
+-- Language settings
+Config.language = 'de'
+
+Config.translations = {
+    en = {
+        applyContacts = 'You put on %s.',
+        removeContacts = 'You removed the contact lenses.',
+        unknownColor = 'Unknown color: %s'
+    },
+    de = {
+        applyContacts = 'Du hast %s aufgesetzt.',
+        removeContacts = 'Du hast die Kontaktlinsen entfernt.',
+        unknownColor = 'Unbekannte Farbe: %s'
+    }
+}

@@ -23,6 +23,16 @@ local function playAnimation(callback)
     end
 end
 
+local function getTranslation(key, ...)
+    local lang = Config.language
+    local translation = Config.translations[lang][key]
+    if translation then
+        return string.format(translation, ...)
+    else
+        return key 
+    end
+end
+
 RegisterNetEvent('gs_contactlens:applyContacts')
 AddEventHandler('gs_contactlens:applyContacts', function(color, label)
     local playerPed = PlayerPedId()
@@ -37,10 +47,10 @@ AddEventHandler('gs_contactlens:applyContacts', function(color, label)
         playAnimation(function()
             SetPedEyeColor(playerPed, eyeColorConfig)
             currentlyWearingContacts[playerId] = color
-            ESX.ShowNotification('You put on ' .. label .. '.')
+            ESX.ShowNotification(getTranslation('applyContacts', label))
         end)
     else
-        print('Unknown color: ' .. color)
+        print(getTranslation('unknownColor', color))
     end
 end)
 
@@ -54,8 +64,10 @@ AddEventHandler('gs_contactlens:removeContacts', function()
             SetPedEyeColor(playerPed, originalEyeColors[playerId])
             originalEyeColors[playerId] = nil
             currentlyWearingContacts[playerId] = nil
-            ESX.ShowNotification('You removed the contact lenses.')
+            ESX.ShowNotification(getTranslation('removeContacts'))
         end)
+    else
+        ESX.ShowNotification(getTranslation('removeContacts'))
     end
 end)
 
